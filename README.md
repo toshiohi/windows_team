@@ -10,6 +10,7 @@ git addの後に実行。ローカルに保管するコマンド。
 
 ## 5.git branch fix/42
 fix/42という名前でブランチを作成します。
+
 '''
 git branch <branchname>
 '''
@@ -24,7 +25,6 @@ checkout -bは、新規ブランチを作り、それをカレントブランチ
 
 ## 12. git checkout
 ブランチを切り替えます。
-
 
 '''
 git checkout <branch>
