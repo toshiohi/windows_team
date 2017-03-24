@@ -96,8 +96,13 @@ git cherry pick <id>は、ブランチにidで指定したコミットを適用�
 順に対象を選びリセットを行う
 
 ## その他9．git help
-<まずは、推測で更新>
-コマンドのhelpを表示
+コマンドのhelpを表示、方法は以下の3種類
+
+①git help xxxx
+②git　xxxx --help
+③man git-xxxx
+
+これらのコマンドでxxxxのhelpを参照可能
 
 ## その他10. git grep
 gitで管理しているリポジトリの範囲内でgrepするコマンド。
