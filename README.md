@@ -25,6 +25,7 @@ checkout -bは、新規ブランチを作り、それをカレントブランチ
 ## 12. git checkout
 ブランチを切り替えます。
 
+
 '''
 git checkout <branch>
 '''
