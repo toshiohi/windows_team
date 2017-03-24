@@ -31,6 +31,12 @@ checkout -bは、新規ブランチを作り、それをカレントブランチ
 
 ## 13. git merge --ff-only
 Refuse to merge and exit with a non-zero status unless the current HEAD is already up-to-date or the merge can be resolved as a fast-forward.
+FFとは？
+⇒　ファーストフォワードの略
+ファーストフォワードである：コミットAの歴史がコミットBにすべて含まれていること
+ファーストフォワードでない：コミットAの歴史がコミットBにすべて含まれていない　(ブランチが分かれている状況)
+
+-ffをつけると、マージコミットは作らず、ブランチの参照先のみを更新する
 
 
 ## 14. git merge --no-ff
