@@ -42,6 +42,9 @@ git pull は fetch + merge ですが、--rebase オプションをつけると f
 
 	git pull --rebase
 
+##19. git push
+まずは気軽に項目追加
+
 ## 20. git cherry pick
 git cherry pick <id>は、ブランチにidで指定したコミットを適用します。
 
