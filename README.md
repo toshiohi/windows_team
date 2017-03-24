@@ -34,6 +34,7 @@ Refuse to merge and exit with a non-zero status unless the current HEAD is alrea
 
 FFとは？
 ⇒　ファーストフォワードの略
+
 ◆ファーストフォワードである
 コミットAの歴史がコミットBにすべて含まれていること
 
