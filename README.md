@@ -49,6 +49,9 @@ FFとは？
 ## 14. git merge --no-ff
 指定したブランチを現在のブランチにマージしますが、その際に常に (たとえそれが「早送り」可能であっても) マージコミットを作成してマージします。
 
+## 15. git fetch
+リモートのブランチの内容をローカルに持ってきます。
+
 ## 18. git pull --rebase
 --rebase は git pull コマンドのオプションです。
 git pull は fetch + merge ですが、--rebase オプションをつけると fetch + rebaseとして実行します。
