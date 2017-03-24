@@ -24,6 +24,7 @@ checkout -bは、新規ブランチを作り、それをカレントブランチ
 
 ## 12. git checkout
 ブランチを切り替えます。
+
 '''
 git checkout <branch>
 '''
@@ -34,6 +35,7 @@ git checkout <branch>
 ## 18. git pull --rebase
 --rebase は git pull コマンドのオプションです。
 git pull は fetch + merge ですが、--rebase オプションをつけると fetch + rebaseとして実行します。
+
 '''
 git pull --rebase
 '''
