@@ -22,6 +22,8 @@ checkout -bは、新規ブランチを作り、それをカレントブランチ
 	git checkoutは、作業対象のブランチの切り替えを行う
 	本コマンドではブランチ fix/42をチェックアウトする
 
+## 8. git reset --hard master
+
 ## 12. git checkout
 ブランチを切り替えます。
 
