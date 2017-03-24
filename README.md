@@ -37,3 +37,6 @@ git pull は fetch + merge ですが、--rebase オプションをつけると f
 '''
 git pull --rebase
 '''
+
+## 20. git cherry pick
+git cherry pick <id>は、ブランチにidで指定したコミットを適用します。
