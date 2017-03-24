@@ -3,6 +3,9 @@
 ## 1.git add
 git add は、作業ディレクトリ内の変更をステージングエリアに追加するコマンド
 
+## 2.git commit
+git addの後に実行。ローカルに保管するコマンド。
+
 ## 4.git commit --amend
 
 ## 5.git branch fix/42
