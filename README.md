@@ -29,6 +29,9 @@ checkout -bは、新規ブランチを作り、それをカレントブランチ
 
 	git checkout <branch>
 
+##13. git merge --ff-only
+Refuse to merge and exit with a non-zero status unless the current HEAD is already up-to-date or the merge can be resolved as a fast-forward.
+
 
 ## 14. git merge --no-ff
 指定したブランチを現在のブランチにマージしますが、その際に常に (たとえそれが「早送り」可能であっても) マージコミットを作成してマージします。
@@ -41,3 +44,4 @@ git pull は fetch + merge ですが、--rebase オプションをつけると f
 
 ## 20. git cherry pick
 git cherry pick <id>は、ブランチにidで指定したコミットを適用します。
+
